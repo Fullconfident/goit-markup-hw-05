@@ -107,6 +107,7 @@ padding-top: 32px;
 padding-bottom: 32px;
 display: block;
 position: relative;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-link.current.link::after {
@@ -118,6 +119,7 @@ position: relative;
     width: 100%;
     height: 4px;
     border-radius: 2px;
+    margin-bottom: -1px;
     background-color: var(--second-main-color);
 }
 
@@ -131,8 +133,9 @@ padding-top: 32px;
 padding-bottom: 32px;
 display: flex;
 align-items: center;
-
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .header-tel {
 font-weight: 500;
 font-size: 14px;
@@ -143,6 +146,7 @@ padding-top: 32px;
 padding-bottom: 32px;
 display: flex;
 align-items: center;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-link:hover,
 .header-link:focus,
@@ -401,6 +405,7 @@ border-radius: 0px 0px 4px 4px;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-soc-icon {
@@ -460,6 +465,7 @@ border-radius: 0px 0px 4px 4px;
     align-items: center;
     justify-content: center;
     color:#AFB1B8;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-icon {
@@ -509,12 +515,14 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--main-color);
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-address-contact {
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--text-footer-color);
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-address-link:hover,
@@ -560,6 +568,7 @@ margin-bottom: 20px;
     align-items: center;
     justify-content: center;
     outline: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-conteiner {

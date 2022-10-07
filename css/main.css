@@ -7,7 +7,6 @@
 --logo-color: #000000;
 --btn-color: #F5F4FA;
 --background-footer-color: #2F303A;
---portfolio-link-color:  #EEEEEE;
 --footer-address-color: rgba(255, 255, 255, 0.6);
 --tipical-lh: 1.19;
 --secondtipical-lh: 1.14;
@@ -106,7 +105,9 @@ padding-top: 32px;
 padding-bottom: 32px;
 display: flex;
 align-items: center;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .header-mail {
 font-weight: 500;
 font-size: 14px;
@@ -117,6 +118,7 @@ padding-top: 32px;
 padding-bottom: 32px;
 display: flex;
 align-items: center;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-tel {
 font-weight: 500;
@@ -127,6 +129,7 @@ color: var(--text-color);
 padding-top: 32px;
 padding-bottom: 32px;
 display: block;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-link:hover,
 .header-link:focus,
@@ -181,7 +184,6 @@ flex-basis: calc((100% - 60px) / 3);
 }
 .porfolio-link {
     display: block;
-background-color: var(--portfolio-link-color);
 }
 
 .porfolio-link:hover,
@@ -205,6 +207,7 @@ padding-top: 6px;
 padding-right: 22px;
 padding-bottom: 6px;
 padding-left: 22px;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-btn:hover,
@@ -235,9 +238,10 @@ padding-top: 20px;
 padding-right: 24px;
 padding-bottom: 20px;
 padding-left: 24px;
-border-right: var(--border-header-line);
-border-bottom: var(--border-header-line);
-border-left: var(--border-header-line);
+border-right: 1px solid var(--border-header-line);
+border-bottom: 1px solid var(--border-header-line);
+border-left: 1px solid var(--border-header-line);
+transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-item-img{
@@ -318,6 +322,8 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--main-color);
 margin-bottom: 9px;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+
 }
 .footer-address-contact {
 font-size: 14px;
@@ -325,6 +331,7 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--footer-address-color);
 margin-bottom: 9px;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .footer-address-link:hover,
@@ -366,6 +373,7 @@ color: var(--second-main-color);
  align-items: center;
  justify-content: center;
  outline: none;
+ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
     
 .footer-conteiner {
