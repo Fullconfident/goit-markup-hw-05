@@ -245,11 +245,12 @@ padding-right: 32px;
 padding-bottom: 10px;
 padding-left: 32px;
 margin-top: 30px;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 
 .hero-btn:hover,
 .hero-btn:focus {
-    color: var(--main-color);
     background-color: #188ce8;
 }
 /*----------------feature-----------------*/
@@ -295,7 +296,10 @@ height: 72px;
     background: var(--background-third-color);
     border-radius: 4px;
 }
-   
+
+.feature-icons{
+    height: 70px;
+}
 
 /*----------------ourwork-----------------*/
 
@@ -471,6 +475,7 @@ border-radius: 0px 0px 4px 4px;
 
 .customers-icon {
     fill: currentColor;
+    height: 60px;
 }
 
 .customers-logo:hover,
@@ -625,8 +630,8 @@ margin-bottom: 20px;
     cursor: pointer;
 }
 
-.model-btn:hover {
-    border-color: var(--second-main-color);
+.model-close-icon{
+    height: 18px;
 }
 
 .is-hidden {
